@@ -1,0 +1,6 @@
+services:
+  web:
+    image: server-python:0.1
+    container_name: webapp
+    ports:
+      - "8000:8000"
